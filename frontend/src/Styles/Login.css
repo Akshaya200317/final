@@ -1,0 +1,95 @@
+/* Scoped styles for the login page */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-photo/empty-wood-table-top-with-blur-clothing-boutique-display-interior-shopping-mall-background_293060-20238.jpg");
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0);
+    transition: transform 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.login-container:hover {
+    transform: translateY(-10px);
+}
+
+.login-title {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-family: 'Audiowide', cursive;
+    color: #333;
+}
+
+.login-subtitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #777;
+}
+
+.login-input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-input:focus {
+    border-color: #567ce6;
+    outline: none;
+}
+
+.login-password-tip {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+.login-footer {
+    margin-top: 20px;
+}
+
+.login-button {
+    padding: 12px 25px;
+    background-color: #567ce6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #4561cc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-button:active {
+    transform: scale(0.98);
+}

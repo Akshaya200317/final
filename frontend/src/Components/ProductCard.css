@@ -1,0 +1,70 @@
+.product-card {
+  width: 250px; /* Set a fixed width for the card */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 10px; /* More rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  overflow: hidden; /* Hide overflow for rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth scaling and shadow on hover */
+  background-color: white; /* White background */
+  text-align: center; /* Center text */
+  margin: 15px; /* Margin around the card */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lift card on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.product-image {
+  width: 100%; /* Full width for the image */
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio and cover area */
+}
+
+.product-title {
+  font-size: 1.3em; /* Slightly smaller font size for title */
+  margin: 10px 0; /* Margin for spacing */
+  color: #333; /* Dark gray color for title */
+  font-weight: 600; /* Bold title */
+}
+
+.product-description {
+  font-size: 0.9em; /* Smaller font size for description */
+  margin: 5px 0 10px; /* Margin for spacing */
+  color: #666; /* Lighter gray for description */
+}
+
+.product-details {
+  display: flex; /* Flexbox for details */
+  justify-content: space-between; /* Space between price and button */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Padding around details */
+}
+
+.product-price {
+  font-size: 1.1em; /* Slightly smaller font for price */
+  color: #efb5b5; /* Color for price */
+  font-weight: 600; /* Bold price */
+}
+
+.add-cart-btn {
+  background-color: #efb5b5; /* Button color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for button */
+  padding: 8px 15px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.9em; /* Smaller font size */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.add-cart-btn:hover {
+  background-color: #dc7979; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slightly lift the button */
+}
+
+.add-cart-btn:active {
+  transform: translateY(1px); /* Button press effect */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Shadow effect when pressed */
+}

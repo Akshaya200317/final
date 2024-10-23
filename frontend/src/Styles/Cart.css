@@ -1,0 +1,144 @@
+/* Cart page container */
+.cart-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fafafa;
+}
+
+.cart-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.cart-item-details h3 {
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+.delete-item {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+}
+
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.coupon-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.coupon-section input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 250px;
+}
+
+.apply-coupon {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-totals {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 350px;
+}
+
+.cart-totals h3 {
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.totals-details p {
+  margin-bottom: 10px;
+}
+
+.total-amount h3 {
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  margin-top: 20px;
+}
+
+.checkout-button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
