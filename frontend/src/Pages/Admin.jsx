@@ -30,7 +30,7 @@ const Admin = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:5000/products', {
+    const response = await fetch('https://final-be6i.onrender.com/products', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
