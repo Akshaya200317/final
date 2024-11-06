@@ -7,7 +7,7 @@ const Cart = () => {
   const [loading, setLoading] = useState(true);
 
   const fetchCartItems = async () => {
-    const response = await fetch('http://localhost:5000/cart');
+    const response = await fetch('https://final-be6i.onrender.com/cart');
     const data = await response.json();
     setCartItems(data);
     setLoading(false);
@@ -18,7 +18,7 @@ const Cart = () => {
   }, []);
 
   const handleDeleteItem = async (id) => {
-    const response = await fetch(`http://localhost:5000/cart/${id}`, {
+    const response = await fetch(`https://final-be6i.onrender.com/cart/${id}`, {
       method: 'DELETE',
     });
     if (response.ok) {
@@ -29,7 +29,7 @@ const Cart = () => {
   const handleUpdateQuantity = async (id, newQuantity) => {
     const updatedItem = { quantity: newQuantity };
 
-    const response = await fetch(`http://localhost:5000/cart/${id}`, {
+    const response = await fetch(`https://final-be6i.onrender.com/cart/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedItem),
@@ -43,7 +43,7 @@ const Cart = () => {
   };
 
   const handlePlaceOrder = async () => {
-    const response = await fetch('http://localhost:5000/cart', {
+    const response = await fetch('https://final-be6i.onrender.com/cart', {
       method: 'DELETE',
     });
 
