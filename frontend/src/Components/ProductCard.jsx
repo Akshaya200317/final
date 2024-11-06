@@ -12,7 +12,7 @@ const ProductItem = ({ product }) => {
       quantity: 1,
     };
 
-    const response = await fetch('http://localhost:5000/cart', {
+    const response = await fetch('https://final-be6i.onrender.com/cart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
