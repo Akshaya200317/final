@@ -28,7 +28,7 @@ const Login = () => {
     return (
         <div className='login-page'>
             <div className='login-container'>
-                <h1 className='login-title'>Welcome to ClothStore</h1>
+                <h1 className='login-title'>Welcome to VELA</h1>
                 <h3 className='login-subtitle'>Login:</h3>
                 <div className='login-input-group'>
                     <label className='login-label' htmlFor="inputEmail">Email ID:</label>

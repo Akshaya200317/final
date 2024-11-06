@@ -24,7 +24,7 @@ const NavigationBar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="navbar-logo">ClothStore</h1>
+      <h1 className="navbar-logo">VELA</h1>
       
       <ul className={`navbar-links ${isMenuOpen ? 'open' : ''}`}>
         <li><Link to="/Landing">HOME</Link></li>

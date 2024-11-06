@@ -1,47 +1,47 @@
 .about-container {
-  max-width: 800px; /* Limit width for readability */
-  margin: 2rem auto; /* Center the container */
-  padding: 1.5rem; /* Padding around content */
-  background-color: #ffffff; /* White background for contrast */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 800px; 
+  margin: 2rem auto; 
+  padding: 1.5rem; 
+  background-color: #ffffff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .about-heading {
-  text-align: center; /* Center the heading */
-  font-size: 2.5rem; /* Large heading */
-  color: #efb5b5; /* Blue color for branding */
-  margin-bottom: 1rem; /* Space below heading */
+  text-align: center; 
+  font-size: 2.5rem; 
+  color: #efb5b5; 
+  margin-bottom: 1rem; 
 }
 
 .about-text {
-  font-size: 1.1rem; /* Slightly larger text for readability */
-  line-height: 1.6; /* Line height for better readability */
-  color: #333333; /* Dark gray text for contrast */
-  margin-bottom: 1rem; /* Space between paragraphs */
+  font-size: 1.1rem; 
+  line-height: 1.6; 
+  color: #333333; 
+  margin-bottom: 1rem; 
 }
 
 .contact-button {
-  display: block; /* Center the button */
-  width: 200px; /* Fixed width for the button */
-  margin: 2rem auto; /* Center and space above/below */
-  padding: 0.8rem; /* Padding for button */
-  background-color: #efb5b5; /* Blue background */
-  color: #ffffff; /* White text */
-  border: none; /* Remove border */
-  border-radius: 5px; /* Rounded corners */
-  font-size: 1rem; /* Font size for button */
-  cursor: pointer; /* Pointer on hover */
-  transition: background-color 0.3s ease; /* Smooth transition */
-  text-align: center; /* Center text inside button */
-  text-decoration: none; /* Remove underline */
+  display: block; 
+  width: 200px; 
+  margin: 2rem auto; 
+  padding: 0.8rem; 
+  background-color: #efb5b5; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 1rem; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  text-align: center; 
+  text-decoration: none; 
 }
 
 .contact-button:hover {
-  background-color: #efb5b5; /* Darker blue on hover */
+  background-color: #efb5b5; 
 }
 
 .contact-button a {
-  color: #ffffff; /* White text for the link inside the button */
-  text-decoration: none; /* Remove underline */
+  color: #ffffff; 
+  text-decoration: none; 
 }
